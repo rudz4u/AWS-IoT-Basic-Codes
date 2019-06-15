@@ -18,7 +18,7 @@ click on download Root Ca link .
 (skip this step if you download AmazonRootCA1.pem from here) Create a New file in your project folder with Name 'AmazonRootCA1.pem'   
 (skip this step if you download AmazonRootCA1.pem from here) Paste the content in it and save.  
 click on Activate Certificate   
-Go back to Manage>Things menu using back icon or cancel link.   
+Go back to Manage>Things menu using back icon  of the web page 2 times and then cancel link at bottom 2 times.   
 Click on Secure > Policies.   
 Click on Create Button.   
 Create A security policy with a Name  and in Action IoT:* and in Resouce *   , Chcek Allow. Click Create   
