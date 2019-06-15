@@ -25,7 +25,7 @@ Create A security policy with a Name  and in Action IoT:* and in Resouce *   , C
 Go to certificates . Click on your certificate.   
 From Action Menu Attach policy with Certificate. ( choose the latest one you Just Created. )    
 Similarly from action menu Attach thing  with the certificate ( choose the latest one you Just Created.)   
-Make sure your system has Pyhton3 ,Paho-mqtt ( pip3 install paho-mqtt ), pyOpenssl  (pip3 install pyOpenSSL) and AWSPythonIoTSDK ( pip3 install AWSIoTPythonSDK ) installed in it.    
+Make sure your system has Pyhton3 ( python --version),Paho-mqtt ( pip3 install paho-mqtt ), pyOpenssl  (pip3 install pyOpenSSL) and AWSPythonIoTSDK ( pip3 install AWSIoTPythonSDK ) installed in it.    
 Put Python program files in your project folder where certificates are already.    
 Replace Awshost  (Manage> things> open your thing > interact >copy endpoint ), clientid (your thing name),thingname (your thing name),root certificate path (AmazonRootCA1.pem), certificate path (Your downloded thing certificate file name), private key path (Your downloded thing private key file name)and your topic name ( as your choice) in the file with your credentials from Aws console and downloaded file name   
 run with sudo python3 prefix and check in IoT Core Test option using the topic name.
