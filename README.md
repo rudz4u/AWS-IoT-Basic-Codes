@@ -2,10 +2,13 @@
 Basic codes for establishing Publish and Subscribe communication with AWS using Random value generator
 
 Go to AWS IoT Core.  
-Create a Thing from manage menu ( don't click on get started option)  
-Create a Certificate  
-Click on created certificate.  
-Download Certificate files.  
+Go to Manage Menu Option.   
+Click on Create  
+click on Create a single Thing ( don't click on get started option)  
+Give it a name.   
+Click on Next.   
+Create a Certificate  button 
+Download created 3 Certificate files.  
 Keep them in your project folder.   
 click on download Root Ca link .   
 (skip this step if you download AmazonRootCA1.pem from here) On the new documentation tab of this url: https://docs.aws.amazon.com/iot/latest/developerguide/managing-device-certs.html   
@@ -14,8 +17,8 @@ click on download Root Ca link .
 (skip this step if you download AmazonRootCA1.pem from here) Copy the Whole Content   
 (skip this step if you download AmazonRootCA1.pem from here) Create a New file in your project folder with Name 'AmazonRootCA1.pem'   
 (skip this step if you download AmazonRootCA1.pem from here) Paste the content in it and save.  
-Activate Certificate   
-Go back to Manage>Things menu.   
+click on Activate Certificate   
+Go back to Manage>Things menu using back icon or cancel link.   
 Click on Secure > Policies.   
 Click on Create Button.   
 Create A security policy with a Name  and in Action IoT:* and in Resouce *   , Chcek Allow. Click Create   
