@@ -77,6 +77,6 @@ while 1==1:
     if connflag == True:
         randomreading = uniform(20.0,25.0)                        # Generating random data 
         mqttc.publish("topic_name", randomreading, qos=1)        # topic: replace with your topic name # Publishing random values
-        print("msg sent: topic_name " + "%.2f" % tempreading ) # Print sent topic wise msg on console
+        print("msg sent: topic_name " + "%.2f" % randomreading ) # Print sent topic wise msg on console
     else:
         print("waiting for connection...")   
